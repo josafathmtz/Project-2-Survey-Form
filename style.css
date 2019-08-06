@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    background-color: firebrick;
+    color: black;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+#description{
+    font-family: sans-serif;
+}
+
+#survey-form{
+    width: 900px;
+    margin: 0 auto;
+}
+#survey{
+    width: 900px;
+    margin: 0 auto;
+    background-color:azure;
+    border-radius: 10px;
+}
+
+.row-tab{
+    display: block;
+    padding-top: 10px;
+    line-height: 23px;
+}
+
+.label-encuesta{
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+}
+
+.input-encuesta{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.select-input{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.label-select{
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+}
+
+.label-radio{
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.input-radio{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.label-checkbox{
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.input-checkbox{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.label-text-area{
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.input-text-area{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.textarea{
+    resize: none;
+}

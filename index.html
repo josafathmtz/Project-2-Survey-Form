@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <title>
+            Formulario
+        </title>
+    </head>
+        <body>
+            <section>
+<h1 id="title">Encuesta de librería</h1>
+                <div id="survey">
+                <form id="survey-form">
+                   <br><p id="description">Ayudanos en esta encuesta</p>
+                    <div class="row-tab">
+                        <div class="label-encuesta">
+                            <label id="name-label">*Nombre:</label>
+                        </div>
+                    <div class="input-encuesta">
+                        <input id="name" type="text" placeholder="Ingresa tu nombre" required>
+                    </div>
+                    </div>
+                </form>
+                 <form id="survey-form">
+                    <div class="raw-tab">
+                        <div class="label-encuesta">
+                            <label id="number-label">*Edad:</label>
+                        </div>
+                    <div class="input-encuesta">
+                        <input id="number" type="number" name="edad" min="1" max="120" placeholder="Edad" required>
+                    </div>
+                    </div>                    
+                </form>
+                <form id="survey-form">
+                    <div class="raw-tab">
+                        <div class="label-encuesta">
+                            <label id="email-label">*Email:</label>
+                        </div>
+                    <div class="input-encuesta">
+                        <input id="email" type="email" placeholder="Ingresa tu email" required>
+                    </div>
+                    </div>  
+                    
+                    <div class="raw-tab">
+                        <div class="label-select">
+                            <label>*Cúal es tu libro favorito de MacArthur?</label>
+                        </div>
+                        <div class="select-input">
+                            <select id="dropdown" required>
+  <option selected disabled>Seleccionar</option>
+  <option value="value1">Fuego extraño</option> 
+  <option value="value2">Teología sistematica</option>
+  <option value="value3">Comentario MacArthur</option>
+</select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row-tab">
+                    <div class="label-radio">
+                        <label>Locaciones:</label>
+                        </div>
+                    <div class="input-radio">
+                       <div>
+                           <label>México<input type="radio" name="radio-buttons" value="1"></label></div>
+                       <div>
+                        <label>Estados Unidos<input type="radio" name="radio-buttons" value="2"></label>
+                    </div>
+                    <div>
+                        <label>Canadá<input type="radio" name="radio-buttons" value="3"></label>
+                    </div>                
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row-tab">
+                        <div class="label-checkbox">
+                        <label>Cuáles son tus temas preferidos?</label>
+                        </div>
+                        <div class="input-checkbox">
+                            <label> Ministerio pastoral <input type="checkbox" name="genero1" value="Ministerio pastoral"></label><br>
+                            <label>Predicación
+                            <input type="checkbox" name="genero1" value="Predicación"> </label><br>
+                            <label>Liderazgo<input type="checkbox" name="genero1" value="Liderazgo"> </label><br>
+                            <label>Familia<input type="checkbox" name="genero1" value="Familia"> </label><br>
+                            <label>Membresía<input type="checkbox" name="genero1" value="Membresía"> </label><br>
+                            <label>Discipulado<input type="checkbox" name="genero1" value="Discipulado"> </label><br>
+                            <label>Evangelismo<input type="checkbox" name="genero1" value="Evangelismo"></label><br>
+                            <label>Misiones<input type="checkbox" name="genero1" value="Misiones"></label><br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row-tab">
+                        <div class="label-text-area">
+                            <label>Algún comentario o sugerencia?</label>
+                        </div>
+                        <div class="input-text-area">
+                            <textarea name="textarea" rows="5" cols="40" placeholder="Escribe algo aquí..."></textarea>
+                        </div>
+                    </div>
+                    <div class="row-tab">
+                       
+                        <button id="submit" input type="submit"></button>
+                        
+                    </div>
+                </form>
+                </div>
+                
+            </section>
+        </body>
+</html>
